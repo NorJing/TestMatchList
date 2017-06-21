@@ -18,6 +18,13 @@ public class Match {
         this.matchDate = Utils.parseDate(matchDate);
     }
 
+    public Match(int matchId, String homeTeam, String awayTeam, Date matchDate){
+        this.matchId = matchId;
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
+        this.matchDate = matchDate;
+    }
+
     public int getMatchId(){
         return matchId;
     }
